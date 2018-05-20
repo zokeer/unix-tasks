@@ -8,8 +8,7 @@ using namespace std;
 
 int main(int argc, char* argv[]) {
     string line;
-
-    line = "zeroes.txt";
+    getline(cin, line);
 
     if (line == "")
     {
